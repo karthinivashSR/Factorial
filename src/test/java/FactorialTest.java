@@ -13,4 +13,5 @@ public class FactorialTest {
         assertThat(result,is(equalTo(120)));
 
     }
+
 }
