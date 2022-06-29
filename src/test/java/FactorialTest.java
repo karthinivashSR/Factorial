@@ -14,4 +14,12 @@ public class FactorialTest {
 
     }
 
+    @Test
+    void shouldReturnFactorialOfANumberAsOneIfGivenNumberIsZero() {
+
+        Factorial fact = new Factorial(0);
+        int result = fact.factorial();
+        assertThat(result,is(equalTo(1)));
+
+    }
 }
